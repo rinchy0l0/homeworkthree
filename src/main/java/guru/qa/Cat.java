@@ -7,9 +7,9 @@ public class Cat {
     boolean sex; // false - girl, true -  man
     int age;
 
-    Cat(String a, String b,  boolean t, int f) {
-        coatColor  = a ;
-        name = b ;
+    Cat(String a, String b, boolean t, int f) {
+        coatColor = a;
+        name = b;
         sex = t;
         age = f;
     }
@@ -27,6 +27,6 @@ public class Cat {
     }
 
     void displayInfoForZhora() {
-        System.out.printf( " cat name " + name, " age cat" + age);
+        System.out.printf(" cat name " + name, " age cat" + age);
     }
 }

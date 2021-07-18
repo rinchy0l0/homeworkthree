@@ -22,7 +22,7 @@ public class Cat {
         this.age = age;
     }
 
-    void displayInfo(){
+    void displayInfo() {
         System.out.printf("Coat color " + coatColor, " cat name " + name, " sex cat " + sex, " age cat" + age);
     }
 

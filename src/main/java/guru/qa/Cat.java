@@ -2,7 +2,6 @@ package guru.qa;
 
 public class Cat {
 
-    static int numberOfMothers = 1;
     String coatColor;
     String name;
     boolean sex; // false - girl, true -  man
@@ -15,6 +14,7 @@ public class Cat {
         sex = t;
         age = f;
     }
+
     Cat()
     {
     }
@@ -31,8 +31,5 @@ public class Cat {
 
     void displayInfoForZhora(){
         System.out.printf( " cat name " + name, " age cat" + age);
-    }
-    static void sayNumberOfMothers () {
-        System.out.println(numberOfMothers);
     }
 }
